@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="inc\box2d">
+      <UniqueIdentifier>{6eea44a7-4955-4d2c-af10-7858ab29b7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\box2d\Collision">
+      <UniqueIdentifier>{4845895c-049e-4aad-8b76-fe967eb83025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\box2d\Collision\Shapes">
+      <UniqueIdentifier>{96a238be-322e-478b-a4ad-fd524489e889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\box2d\Common">
+      <UniqueIdentifier>{9a58f25f-77a2-497c-9203-8dd687f04dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\box2d\Dynamics">
+      <UniqueIdentifier>{c037f884-f4cd-4f3a-8e5e-99c11724b037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\box2d\Dynamics\Contacts">
+      <UniqueIdentifier>{e9cde207-ab69-4799-8e76-62d453cc4dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\box2d\Dynamics\Joints">
+      <UniqueIdentifier>{37558fa0-8d63-4354-a9de-161cec3b3eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\box2d\Rope">
+      <UniqueIdentifier>{b5424971-8723-42c0-9977-5c9228ae6e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\common">
+      <UniqueIdentifier>{3ab57b9d-736b-419a-9758-3da6142f7b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\content">
+      <UniqueIdentifier>{c743449e-d88c-4f28-9f22-fecd128f8262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\controller">
+      <UniqueIdentifier>{bb77490a-1654-48b5-bf22-650c34b26eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\gui">
+      <UniqueIdentifier>{11ce2ddf-a508-4c76-9f4a-9cdc6d999aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\landscape">
+      <UniqueIdentifier>{332cc5e1-cc32-4d1b-8378-25f527f1ed02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\layer">
+      <UniqueIdentifier>{16282ee6-8775-4840-99d9-c71e957cd906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\light">
+      <UniqueIdentifier>{e58131bf-f6e5-49f6-8e65-adf06ca3da08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\log">
+      <UniqueIdentifier>{f9350f5e-780f-46a2-8875-4547c691aebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\ogg">
+      <UniqueIdentifier>{40461c7f-7b50-4438-8546-e5cbc056c23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\sprite">
+      <UniqueIdentifier>{285a04c5-8987-471a-9159-bd1ca11b82da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\state">
+      <UniqueIdentifier>{b4aaecaa-b048-4d33-9e0d-0233839298ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\viewport">
+      <UniqueIdentifier>{a5effca6-8c3f-4229-a20e-90513346d1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\weapon">
+      <UniqueIdentifier>{23a6f6be-6c76-4694-a82c-f42ddac0d1a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\world">
+      <UniqueIdentifier>{2e2d3bbd-34f7-4c8c-85b2-32190fcd9b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\box2d">
+      <UniqueIdentifier>{1dd1f652-3116-4a24-b84d-2e326c822e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\box2d\Collision">
+      <UniqueIdentifier>{01a01804-3614-4ab6-9ab8-c63d2afa2af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\box2d\Collision\Shapes">
+      <UniqueIdentifier>{57790505-fcf8-4a15-9d50-6f955f91677a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\box2d\Common">
+      <UniqueIdentifier>{c5fede77-73cd-410a-be57-09debe522a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\box2d\Dynamics">
+      <UniqueIdentifier>{c7b78593-dd04-4108-a932-fb4ff9508fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\box2d\Dynamics\Contacts">
+      <UniqueIdentifier>{5e3a0446-e787-4076-b316-dd9c84e5c357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\box2d\Dynamics\Joints">
+      <UniqueIdentifier>{344a47d3-48a1-4c08-9087-a55c8787a908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\box2d\Rope">
+      <UniqueIdentifier>{f1027cd8-6c87-4a86-b797-b35ae57e9ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\content">
+      <UniqueIdentifier>{6f407e52-f337-4ebc-aede-49b29618c5b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controller">
+      <UniqueIdentifier>{e2f3a18c-3114-4b3c-896b-12ce3cc767eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{d34f7578-97d6-4e84-9bc2-09ca6df68870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\landscape">
+      <UniqueIdentifier>{eaa09813-e253-431c-8ca4-e34b5ef58d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layer">
+      <UniqueIdentifier>{8fc6beb1-4d5a-49a1-b59b-579937d5b62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\light">
+      <UniqueIdentifier>{98d60559-3344-49d2-8ce0-77591e0b2cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\log">
+      <UniqueIdentifier>{90c94967-2753-45a0-9a05-c6df59c43ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\world">
+      <UniqueIdentifier>{8c46d36e-d174-4c1c-ace3-bbe86a09844f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\weapon">
+      <UniqueIdentifier>{02c67469-b7ce-4671-908a-1cd09885e72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\viewport">
+      <UniqueIdentifier>{a2c4e19f-b386-4b96-a3fc-27f4e8552b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\state">
+      <UniqueIdentifier>{f4db66e0-d521-442d-80aa-b119e7761405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sprite">
+      <UniqueIdentifier>{0b1dc5dd-7ef0-419a-8aab-a3e45cb71b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ogg">
+      <UniqueIdentifier>{82709d95-99b6-4190-9352-9f71b5f36797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{8474812f-9bbc-47ad-9837-53706f7321a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc\bullet">
+      <UniqueIdentifier>{03ec467c-4ae3-4b18-a6ae-baba77e4fe77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bullet">
+      <UniqueIdentifier>{4f56b371-5011-4bf3-bf72-fb21810b00da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="box2d\Box2D.h">
+      <Filter>inc\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\Shapes\b2Shape.h">
+      <Filter>inc\box2d\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\Shapes\b2ChainShape.h">
+      <Filter>inc\box2d\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\Shapes\b2CircleShape.h">
+      <Filter>inc\box2d\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\Shapes\b2EdgeShape.h">
+      <Filter>inc\box2d\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\Shapes\b2PolygonShape.h">
+      <Filter>inc\box2d\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\b2TimeOfImpact.h">
+      <Filter>inc\box2d\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\b2BroadPhase.h">
+      <Filter>inc\box2d\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\b2Collision.h">
+      <Filter>inc\box2d\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\b2Distance.h">
+      <Filter>inc\box2d\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Collision\b2DynamicTree.h">
+      <Filter>inc\box2d\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Common\b2Timer.h">
+      <Filter>inc\box2d\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Common\b2BlockAllocator.h">
+      <Filter>inc\box2d\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Common\b2Draw.h">
+      <Filter>inc\box2d\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Common\b2GrowableStack.h">
+      <Filter>inc\box2d\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Common\b2Math.h">
+      <Filter>inc\box2d\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Common\b2Settings.h">
+      <Filter>inc\box2d\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Common\b2StackAllocator.h">
+      <Filter>inc\box2d\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2Contact.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>inc\box2d\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2GearJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2Joint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>inc\box2d\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\b2WorldCallbacks.h">
+      <Filter>inc\box2d\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\b2Body.h">
+      <Filter>inc\box2d\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\b2ContactManager.h">
+      <Filter>inc\box2d\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\b2Fixture.h">
+      <Filter>inc\box2d\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\b2Island.h">
+      <Filter>inc\box2d\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\b2TimeStep.h">
+      <Filter>inc\box2d\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Dynamics\b2World.h">
+      <Filter>inc\box2d\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="box2d\Rope\b2Rope.h">
+      <Filter>inc\box2d\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xmath.h">
+      <Filter>inc\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\collection.h">
+      <Filter>inc\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>inc\common</Filter>
+    </ClInclude>
+    <ClInclude Include="content\texture_content.h">
+      <Filter>inc\content</Filter>
+    </ClInclude>
+    <ClInclude Include="content\content_builder.h">
+      <Filter>inc\content</Filter>
+    </ClInclude>
+    <ClInclude Include="content\content_provider.h">
+      <Filter>inc\content</Filter>
+    </ClInclude>
+    <ClInclude Include="content\content_refs.h">
+      <Filter>inc\content</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\mouse_controller.h">
+      <Filter>inc\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\fps_controller.h">
+      <Filter>inc\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_manager.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\cursor_gui_element.h">
+      <Filter>inc\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="landscape\landscape_builder.h">
+      <Filter>inc\landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="landscape\landscape.h">
+      <Filter>inc\landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\sound_layer.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\box2d_physics_layer.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\directx_input_layer.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\directx_render_layer.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\directx_sound_layer.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\input_layer.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\layer_manager.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\physics_layer.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="layer\render_layer.h">
+      <Filter>inc\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="light\spot_light.h">
+      <Filter>inc\light</Filter>
+    </ClInclude>
+    <ClInclude Include="light\broken_spot_light.h">
+      <Filter>inc\light</Filter>
+    </ClInclude>
+    <ClInclude Include="light\fading_spot_light.h">
+      <Filter>inc\light</Filter>
+    </ClInclude>
+    <ClInclude Include="light\flickering_spot_light.h">
+      <Filter>inc\light</Filter>
+    </ClInclude>
+    <ClInclude Include="light\light_manager.h">
+      <Filter>inc\light</Filter>
+    </ClInclude>
+    <ClInclude Include="log\logger.h">
+      <Filter>inc\log</Filter>
+    </ClInclude>
+    <ClInclude Include="world\world_time.h">
+      <Filter>inc\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\cell_grid.h">
+      <Filter>inc\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\player_entity.h">
+      <Filter>inc\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\world.h">
+      <Filter>inc\world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\world_builder.h">
+      <Filter>inc\world</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon\weapon.h">
+      <Filter>inc\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon\defender_handgun.h">
+      <Filter>inc\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="viewport\viewport.h">
+      <Filter>inc\viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="state\world_state.h">
+      <Filter>inc\state</Filter>
+    </ClInclude>
+    <ClInclude Include="state\build_world_state.h">
+      <Filter>inc\state</Filter>
+    </ClInclude>
+    <ClInclude Include="state\exit_state.h">
+      <Filter>inc\state</Filter>
+    </ClInclude>
+    <ClInclude Include="state\state_factory.h">
+      <Filter>inc\state</Filter>
+    </ClInclude>
+    <ClInclude Include="state\state_manager.h">
+      <Filter>inc\state</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\sprite_manager.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\base_sprite.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\cursor_sprite.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\defender_handgun_model.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\human_model.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\oneshot_sprite.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\selfremovable_sprite.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\sprite_depth.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="ogg\vorbisfile.h">
+      <Filter>inc\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="ogg\codec.h">
+      <Filter>inc\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="ogg\config_types.h">
+      <Filter>inc\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="ogg\ogg.h">
+      <Filter>inc\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="ogg\oggdecoder.h">
+      <Filter>inc\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="ogg\os_types.h">
+      <Filter>inc\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="ogg\vorbisenc.h">
+      <Filter>inc\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cyclic_queue.h">
+      <Filter>inc\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\spider_model.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\spider_web.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite\splash.h">
+      <Filter>inc\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\web_bullet.h">
+      <Filter>inc\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bullet.h">
+      <Filter>inc\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\defender_bullet.h">
+      <Filter>inc\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\immediate_bullet.h">
+      <Filter>inc\bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>src\box2d\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>src\box2d\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>src\box2d\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>src\box2d\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\b2TimeOfImpact.cpp">
+      <Filter>src\box2d\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\b2BroadPhase.cpp">
+      <Filter>src\box2d\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\b2CollideCircle.cpp">
+      <Filter>src\box2d\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\b2CollideEdge.cpp">
+      <Filter>src\box2d\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\b2CollidePolygon.cpp">
+      <Filter>src\box2d\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\b2Collision.cpp">
+      <Filter>src\box2d\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\b2Distance.cpp">
+      <Filter>src\box2d\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Collision\b2DynamicTree.cpp">
+      <Filter>src\box2d\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Common\b2Timer.cpp">
+      <Filter>src\box2d\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Common\b2BlockAllocator.cpp">
+      <Filter>src\box2d\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Common\b2Draw.cpp">
+      <Filter>src\box2d\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Common\b2Math.cpp">
+      <Filter>src\box2d\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Common\b2Settings.cpp">
+      <Filter>src\box2d\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Common\b2StackAllocator.cpp">
+      <Filter>src\box2d\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>src\box2d\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2Joint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>src\box2d\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>src\box2d\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\b2Body.cpp">
+      <Filter>src\box2d\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\b2ContactManager.cpp">
+      <Filter>src\box2d\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\b2Fixture.cpp">
+      <Filter>src\box2d\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\b2Island.cpp">
+      <Filter>src\box2d\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Dynamics\b2World.cpp">
+      <Filter>src\box2d\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="box2d\Rope\b2Rope.cpp">
+      <Filter>src\box2d\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="common\xmath.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="content\texture_content.cpp">
+      <Filter>src\content</Filter>
+    </ClCompile>
+    <ClCompile Include="content\content_builder.cpp">
+      <Filter>src\content</Filter>
+    </ClCompile>
+    <ClCompile Include="content\content_provider.cpp">
+      <Filter>src\content</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\mouse_controller.cpp">
+      <Filter>src\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\fps_controller.cpp">
+      <Filter>src\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_manager.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\cursor_gui_element.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="landscape\landscape_builder.cpp">
+      <Filter>src\landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="layer\layer_manager.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="layer\box2d_physics_layer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="layer\directx_input_layer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="layer\directx_render_layer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="layer\directx_sound_layer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="light\spot_light.cpp">
+      <Filter>src\light</Filter>
+    </ClCompile>
+    <ClCompile Include="light\broken_spot_light.cpp">
+      <Filter>src\light</Filter>
+    </ClCompile>
+    <ClCompile Include="light\fading_spot_light.cpp">
+      <Filter>src\light</Filter>
+    </ClCompile>
+    <ClCompile Include="light\flickering_spot_light.cpp">
+      <Filter>src\light</Filter>
+    </ClCompile>
+    <ClCompile Include="light\light_manager.cpp">
+      <Filter>src\light</Filter>
+    </ClCompile>
+    <ClCompile Include="log\logger.cpp">
+      <Filter>src\log</Filter>
+    </ClCompile>
+    <ClCompile Include="ogg\oggdecoder.cpp">
+      <Filter>src\ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\sprite_manager.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\base_sprite.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\cursor_sprite.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\defender_handgun_model.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\human_model.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\oneshot_sprite.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\selfremovable_sprite.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="state\world_state.cpp">
+      <Filter>src\state</Filter>
+    </ClCompile>
+    <ClCompile Include="state\build_world_state.cpp">
+      <Filter>src\state</Filter>
+    </ClCompile>
+    <ClCompile Include="state\exit_state.cpp">
+      <Filter>src\state</Filter>
+    </ClCompile>
+    <ClCompile Include="state\state_factory.cpp">
+      <Filter>src\state</Filter>
+    </ClCompile>
+    <ClCompile Include="state\state_manager.cpp">
+      <Filter>src\state</Filter>
+    </ClCompile>
+    <ClCompile Include="viewport\viewport.cpp">
+      <Filter>src\viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon\defender_handgun.cpp">
+      <Filter>src\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="world\world_time.cpp">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\cell_grid.cpp">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\player_entity.cpp">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\world.cpp">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\world_builder.cpp">
+      <Filter>src\world</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\splash.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\spider_model.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite\spider_web.cpp">
+      <Filter>src\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\web_bullet.cpp">
+      <Filter>src\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\defender_bullet.cpp">
+      <Filter>src\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet\immediate_bullet.cpp">
+      <Filter>src\bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
